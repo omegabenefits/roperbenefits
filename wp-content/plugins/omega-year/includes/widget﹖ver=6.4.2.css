@@ -1,0 +1,36 @@
+/* @override 
+	https://ropertechnologies.dev/wp-content/plugins/omega-year/includes/widget.css?* */
+
+/***************************************************
+	styling for sidebar widgets
+***************************************************/
+
+
+/* printfriendly block widget */
+.sidebar-box.widget_block:first-child {
+	margin-bottom: 1em;
+}
+
+#main .overview-button-widget {
+	margin-bottom: 1.2em;
+}
+#main .overview-button-widget ul li a {
+	display: block;
+	background-color: #000;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 500;
+	font-size: 13px;
+	padding: 10px;
+	margin-bottom: 12px;
+	border-radius: 8px;
+}
+#main .overview-button-widget ul li span {
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+#main .overview-button-widget ul li a:hover {
+	background-color: #777;
+	transition: 0.2s;
+}
